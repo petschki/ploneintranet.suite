@@ -38,3 +38,8 @@ src
 .mr.developer.cfg
 .project
 .pydevproject
+
+# misc
+uuid.txt
+README.txt
+htmlcov/
