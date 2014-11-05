@@ -14,6 +14,15 @@ After installation the dev environment, you can run the unit tests and the accep
 
     ./bin/test
 
+Start robot server
+    ./bin/robot-server ploneintranet.suite.testing.PLONEINTRANET_SUITE_ROBOT
+
+Or Start robot server in debug
+    ./bin/robot-server -d ploneintranet.suite.testing.PLONEINTRANET_SUITE_ROBOT
+
+Run robot test
+    ./bin/robot ploneintranet/suite/tests/test_hello.robot
+
 There are a basic sets of tests for our javascript pattern modules in the ploneintranet.theme. These tests are controlled with a makefile
 Go to the directory ``src/ploneintranet.theme``
 and run::
