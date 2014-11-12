@@ -1,0 +1,15 @@
+include *.txt
+include *.rst
+include *.md
+include *.py
+include .travis.yml
+include buildout.cfg
+include dev.cfg
+include travis.cfg
+recursive-include docs *.GPL
+recursive-include docs *.txt
+recursive-include ploneintranet *.robot
+recursive-include ploneintranet *.xml
+recursive-include ploneintranet *.zcml
+exclude ploneintranet.*
+exclude plonesocial.*
